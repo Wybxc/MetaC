@@ -1,0 +1,11 @@
+[package]
+name = "meta-c"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ecow = "0.2.3"
+elegance = "0.3.2"
+logos = "0.15.0"
+miette = { version = "7.5.0", features = ["fancy"] }
+thiserror = "2.0.12"
